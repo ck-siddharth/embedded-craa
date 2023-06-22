@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ck-siddharth/embedded-craa.git/static/css/main.e6c13ad2.css",
+    "main.js": "/ck-siddharth/embedded-craa.git/static/js/main.4e7fe7bc.js",
+    "static/js/787.2847c4b4.chunk.js": "/ck-siddharth/embedded-craa.git/static/js/787.2847c4b4.chunk.js",
+    "index.html": "/ck-siddharth/embedded-craa.git/index.html",
+    "main.e6c13ad2.css.map": "/ck-siddharth/embedded-craa.git/static/css/main.e6c13ad2.css.map",
+    "main.4e7fe7bc.js.map": "/ck-siddharth/embedded-craa.git/static/js/main.4e7fe7bc.js.map",
+    "787.2847c4b4.chunk.js.map": "/ck-siddharth/embedded-craa.git/static/js/787.2847c4b4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.4e7fe7bc.js"
+  ]
+}
