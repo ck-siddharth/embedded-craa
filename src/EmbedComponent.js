@@ -24,10 +24,22 @@ class EmbedComponent extends Component {
     };
   }
 
-  render() {
+  generateEmbeddedCode = () => {
     const { data } = this.state;
     const { dataId } = this.props;
     const headings = data[dataId];
+
+    if (!headings) return null;
+
+    const embeddedCode = `<div id="headings" data-id="${dataId}"></div>
+<script src="https://ck-siddharth.github.io/embedded-craa/static/js/main.4e7fe7bc.js" data-id="${dataId}"></script>`;
+
+    return embeddedCode;
+  };
+
+  render() {
+    const { dataId } = this.props;
+    const headings = this.state.data[dataId];
 
     if (!headings) return null;
 
@@ -39,6 +51,7 @@ class EmbedComponent extends Component {
             <li key={index}>{heading}</li>
           ))}
         </ul>
+        {this.generateEmbeddedCode()}
       </>
     );
   }
